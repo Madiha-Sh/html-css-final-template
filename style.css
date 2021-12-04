@@ -1,0 +1,61 @@
+body{
+
+}
+
+.container{
+  width: 80%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.main-nav a{
+  text-decoration: none;
+}
+
+.main-content{
+  display: flex;
+}
+
+.main-below-content{
+  display: flex;
+  align-items: center;
+}
+
+.side-main ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.side-main a{
+  text-decoration: none;
+}
+
+.main-image{
+  width: 90px;
+  object-fit: cover;
+}
+
+.author{
+  display: flex;
+}
+
+.author-text{
+  display: flex;
+  flex-direction: column;
+}
+
+section{
+  display: flex;
+}
