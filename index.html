@@ -15,11 +15,12 @@
         <div class="left-nav">
           <i class="fas fa-circle"></i>
           <i class="fal fa-circle"></i>
+          <h5>Stella Studio</h5>
         </div>
 
         <div class="main-nav">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a class="current" href="#">Home</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">Pricing</a></li>
@@ -36,8 +37,8 @@
     <div class="container">
       <main>
         <div class="main-content">
-          <h1>Enabling brands to flow with change in order to grow</h1>
-          <img class="main-image" src="img/rocket.png" alt="rocket-image">
+          <h1>Enabling brands to flow with change in order to grow<img class="main-image" src="img/rocket (1).png" alt="rocket-image"></h1>
+
         </div>
 
         <div class="main-below-content">
@@ -48,9 +49,9 @@
   
           <div class="side-main">
             <ul>
-              <li><a href="#">/ Web design</a></li>
+              <li><a class="link1" href="#">/ Web design</a></li>
               <li><a href="#">/ branding</a></li>
-              <li><a href="#">/ marketing</a></li>
+              <li><a class="link2" href="#">/ marketing</a></li>
             </ul>
           </div>
         </div>
@@ -59,9 +60,8 @@
     </div>
 
     <!--section-->
-    <div class="container">
-      <section>
-
+    <section>
+      <div class="container section-division">
         <div class="left-section">
           <div class="author">
             <img src="img/user-2.jpg" alt="" class="author-img">
@@ -70,7 +70,7 @@
               <div class="author-info">Founder</div>
             </div>
           </div>
-          <img src="img/stairs.jpeg" alt="">
+          <img class="stairs-img" src="img/stairs.jpeg" alt="">
         </div>
   
         <div class="right-section">
@@ -78,9 +78,17 @@
           <p>At the start of every project, we customize a detailed project plan together with you to set expectations, ensure alignment, and define key milestones and deliverables. Experience tells us the best solutions are the ones co-ideated ith our clients. We incorporate your ideas with our borad level of expertise to create memorable experience for your brands & products.</p>
           <a href="#">View Detail</a>
         </div>
-        
-      </section>
-    </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+      
+    </footer>
+
+    <script>
+      document.querySelector('.right-nav').addEventListener('click', () => document.querySelector('.main-nav').classList.toggle('show'));
+    </script>
 
   </body>
 </html>
